@@ -18,8 +18,8 @@ server
  
 
 To run (after installing all required node modules)
-1. Go to 'server' directory in terminal and enter "npm start"
-2. Go to 'client' directory in terminal and enter "npm start"
+- Go to 'server' directory in terminal and enter "npm start"
+-  Go to 'client' directory in terminal and enter "npm start"
 
 Chatbot will be displayed in  http://localhost:3000  
 
