@@ -1,21 +1,21 @@
 PRE-REQUISITES - React Application (Nodejs)
 
-MySQL
-Create tables as mentioned in database.sql
+=> MySQL
+  - Create tables as mentioned in database.sql
 
-client 
-npm install axios react-router-dom
+=> client 
+  - npm install axios react-router-dom
 
-server
-npm install express sequelize mysql2 dotenv cors body-parser axios
+=> server
+  - npm install express sequelize mysql2 dotenv cors body-parser axios
 
-.env (Create a .env file in server with following values)
-DB_HOST=your_database_hostname
-DB_USER=your_database_username
-DB_PASSWORD=your_database_password
-DB_NAME=your_database_name
-HUGGINGFACE_API_KEY=your_access_token
-
+=> .env (Create a .env file in server with following values)
+   DB_HOST=your_database_hostname
+   DB_USER=your_database_username
+   DB_PASSWORD=your_database_password
+   DB_NAME=your_database_name
+   HUGGINGFACE_API_KEY=your_access_token
+ 
 
 To run (after installing all required node modules)
 1. Go to 'server' directory in terminal and enter "npm start"
